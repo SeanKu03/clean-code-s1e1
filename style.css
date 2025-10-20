@@ -1,27 +1,27 @@
 /* Basic Style */
 body {
-    background-color: #f8f8f8;
-    color: #333;
+  background-color: #f8f8f8;
+  color: #333;
     font-family: Lato, sans-serif;
 }
-.aaa {
+.image-container {
     width: 500px;
     margin: 0 auto;
     display: block;
     text-align: right;
 }
-.aaa img {
+.image-container_image {
     width: 100%;
 }
-.aaa .more_inf {
+.image-container_link {
     font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-.aaa { text-align: center;
+.image-container { text-align: center;
 }
 }
-.centered-main-page-element {
+.todo-app {
     display: block;
     width: 500px;
     margin: 0 auto 0;
@@ -31,7 +31,7 @@ body {
     display: inline-block;
     flex-grow: 1
 }
-.task-row-wrapper {
+.task-input {
     display: flex;
 }
 ul {
@@ -118,12 +118,12 @@ li > label {
 li >    input[type="text"] {
     width: 226px
 }
-button.delete img {
+.delete-button_icon {
     height: 2em;
     transform: rotateZ(45deg);
     transition: transform 200ms ease-in;
 }
-button.delete img:hover {
+.delete-button_icon:hover {
     transform: rotateZ(0);
 }
 
